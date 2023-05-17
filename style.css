@@ -8,10 +8,17 @@ header {
   margin-top: 30px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .section__colors--infos {
   /* border: 1px solid #d6ed06; */
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
 }
 
 .title__colors {
@@ -101,7 +108,6 @@ header {
 }
 
 form {
-  /* border: 1px solid rgb(255, 0, 174); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,4 +132,28 @@ input {
   border:1px solid rgb(0, 255, 255);
   border-radius: 5px;
   padding: 5px;
+}
+
+.section__pixels--board {
+  display: flex;
+  /* margin-top: 50px; */
+  justify-content: center;
+  width: 100%;
+}
+
+#pixels__board {
+  background-color: rgb(70, 80, 90);
+  -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0.37); 
+  box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0.37);
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.pixel {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
 }

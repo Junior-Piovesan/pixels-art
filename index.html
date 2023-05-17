@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <script src="./script.js" defer></script>
     <title>Arte com Pixels</title>
 </head>
@@ -14,14 +14,50 @@
     </header>
 
     <main>
+        <section class="section__colors--infos">
+            <div class="preferences">
+                <div>
+                    <h2>Defina seu quadro de pixels</h2>
+                </div>
+                <div class="container__form">
+                    <form>
+                        <label for="vertical">Vertical</label>
+                        <input min="5" id="vertical" type="number">
+
+                        <label for="horizontal">Horizontal</label>
+                        <input min="5" id="horizontal" type="number">
+
+                        <label for="tamanho-pixel">Tamanho do pixel</label>
+                        <input min="10" id="tamanho-pixel" type="number">
+                        <button type="button">Criar quadro</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="title__colors">
+                <div>
+                    <h2>Selecione sua cor </h2>
+                </div>
+                <div class="container__colors">
+                    <span id="black" class="color"></span>
+                    <span id="white" class="color"></span>
+                    <span id="red" class="color" ></span>
+                    <span id="blue" class="color"></span>
+                    <span id="yellow" class="color"></span>
+                    <span id="green" class="color"></span>
+                    <span id="purple" class="color"></span>
+                    <span id="orange" class="color"></span>
+                </div>
+            </div>
+
+            </section>
+
         <section>
-            <div>
-                <h3>Cores primárias</h3>
-                <div class="red" ></div>
-                <div class="blue"></div>
-                <div class="yellow"></div>
+            <div class="pixels__board">
+
             </div>
         </section>
+
     </main>
 </body>
 </html>

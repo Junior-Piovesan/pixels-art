@@ -1,5 +1,6 @@
 body {
   background-color: rgb(119, 136, 153);
+  font-family: sans-serif;
 }
 
 header {
@@ -80,7 +81,8 @@ main {
   cursor: pointer;
 }
 
-.color {
+.color, .color-selected {
+  border: 1px solid black;
   border-radius: 100%;
   margin: 10px;
   height: 80px;
